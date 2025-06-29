@@ -28,8 +28,12 @@ logger = logging.getLogger(__name__)
 
 
 config = ConfigParser()
+<<<<<<< HEAD
 config_path = os.path.join(os.path.dirname(__file__), "config.ini")
 config.read(config_path)
+=======
+config.read("webscraping\\config.ini")
+>>>>>>> 1e2c8b76114b1faa53a772a4827bb1f0588bfdc4
 
 # Function to create or update Excel file with multiple sheets
 def update_excel_file(dataframes, mode='append'):

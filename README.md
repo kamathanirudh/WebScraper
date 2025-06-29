@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # News Web Scraper
 
 A comprehensive web scraping application built with Streamlit that collects news from multiple sources including Livemint, Economic Times, Google News, and Reddit. The application provides a user-friendly web interface for scraping, viewing, and exporting news data to Excel format.
@@ -241,3 +242,7 @@ The application automatically:
 ---
 
 **Note**: This application is for educational and research purposes. Please respect the terms of service of the websites being scraped and use responsibly. 
+=======
+# WebScraper
+This is a WebScraping Project made for Larsen and Toubro LTD, which scarpes real time news from news websites like GoogleNews, Livemint, EconomicTimes etc and runs a cronjob every "x" minutes as specified by the user 
+>>>>>>> 1e2c8b76114b1faa53a772a4827bb1f0588bfdc4

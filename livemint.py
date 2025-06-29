@@ -2,14 +2,21 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import logging
+<<<<<<< HEAD
 import os
+=======
+>>>>>>> 1e2c8b76114b1faa53a772a4827bb1f0588bfdc4
 from datetime import datetime
 from configparser import ConfigParser
 
 # Read configuration settings
 config = ConfigParser()
+<<<<<<< HEAD
 config_path = os.path.join(os.path.dirname(__file__), "config.ini")
 config.read(config_path)
+=======
+config.read("webscraping\\config.ini")
+>>>>>>> 1e2c8b76114b1faa53a772a4827bb1f0588bfdc4
 
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

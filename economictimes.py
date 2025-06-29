@@ -4,12 +4,19 @@ import pandas as pd
 from datetime import datetime
 import re
 import logging
+<<<<<<< HEAD
 import os
 
 from configparser import ConfigParser
 config = ConfigParser()
 config_path = os.path.join(os.path.dirname(__file__), "config.ini")
 config.read(config_path)
+=======
+
+from configparser import ConfigParser
+config = ConfigParser()
+config.read("webscraping\\config.ini")
+>>>>>>> 1e2c8b76114b1faa53a772a4827bb1f0588bfdc4
 
 # Configure logging for this module
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

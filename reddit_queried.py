@@ -2,6 +2,7 @@ import praw
 import pandas as pd
 import datetime
 import logging
+<<<<<<< HEAD
 import os
 from configparser import ConfigParser
 from dotenv import load_dotenv
@@ -13,16 +14,31 @@ load_dotenv()
 config = ConfigParser()
 config_path = os.path.join(os.path.dirname(__file__), "config.ini")
 config.read(config_path)
+=======
+from configparser import ConfigParser
+
+# Read configuration settings
+config = ConfigParser()
+config.read("webscraping\\config.ini")
+>>>>>>> 1e2c8b76114b1faa53a772a4827bb1f0588bfdc4
 
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger_reddit = logging.getLogger(__name__)
 
+<<<<<<< HEAD
 # Define Reddit app credentials using environment variables
 reddit = praw.Reddit(
     client_id=os.getenv("REDDIT_CLIENT_ID"),
     client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
     user_agent=os.getenv("REDDIT_USER_AGENT")
+=======
+# Define Reddit app credentials using configuration settings
+reddit = praw.Reddit(
+    client_id=config.get("reddit", "praw_client_id"),
+    client_secret=config.get("reddit", "praw_client_secret"),
+    user_agent=config.get("reddit", "praw_user_agent")
+>>>>>>> 1e2c8b76114b1faa53a772a4827bb1f0588bfdc4
 )
 
 def scrape_news(my_subreddit, my_keyword):
