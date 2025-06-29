@@ -227,37 +227,8 @@ Enable debug logging by modifying the logging level in the code:
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📞 Support
-
-For issues and questions:
-- Check the logs in `app.log`
-- Review the configuration files
-- Open an issue on GitHub
-
-## 🔄 Updates
-
-The application automatically:
-- Checks for new articles at specified intervals
-- Appends new data to existing Excel files
-- Maintains data integrity with duplicate prevention
-- Logs all operations for monitoring
-
----
 
 **Note**: This application is for educational and research purposes. Please respect the terms of service of the websites being scraped and use responsibly. 
 =======
 # WebScraper
 This is a WebScraping Project made for Larsen and Toubro LTD, which scarpes real time news from news websites like GoogleNews, Livemint, EconomicTimes etc and runs a cronjob every "x" minutes as specified by the user 
->>>>>>> 1e2c8b76114b1faa53a772a4827bb1f0588bfdc4
