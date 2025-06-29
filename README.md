@@ -228,7 +228,6 @@ logging.basicConfig(level=logging.DEBUG)
 ```
 
 
-**Note**: This application is for educational and research purposes. Please respect the terms of service of the websites being scraped and use responsibly. 
+### This application is for educational and research purposes. Please respect the terms of service of the websites being scraped and use responsibly. 
 =======
-# WebScraper
 This is a WebScraping Project made for Larsen and Toubro LTD, which scarpes real time news from news websites like GoogleNews, Livemint, EconomicTimes etc and runs a cronjob every "x" minutes as specified by the user 
