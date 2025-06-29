@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # News Web Scraper
 
 A comprehensive web scraping application built with Streamlit that collects news from multiple sources including Livemint, Economic Times, Google News, and Reddit. The application provides a user-friendly web interface for scraping, viewing, and exporting news data to Excel format.
@@ -38,6 +37,22 @@ A comprehensive web scraping application built with Streamlit that collects news
 - Search for keywords in specified subreddits using PRAW API
 - Real-time post monitoring
 - Configurable subreddit and keyword parameters
+
+## 👀 Preview
+
+### Demo Gif
+![App Demo](assets/WebScraper.gif)
+
+### Screenshots
+
+<p float="left">
+  <img src="assets/googlenews.png" width="200" />
+  <img src="assets/livemintnews.png" width="200" />
+  <img src="assets/economictimes.png" width="200" />
+  <img src="assets/Screenshot1.png" width="200" />
+  <img src="assets/Screenshot2.png" width="200" />
+</p>
+
 
 ## 🚀 Quick Start
 
